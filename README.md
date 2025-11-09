@@ -1,58 +1,39 @@
-# Welcome to your Lovable project
+# Learny Pal
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/b302d69b-b924-4958-b54a-03f9a6894cdf
+Learny Pal is an AI-powered educational chatbot designed to help students learn, study, and get homework help across subjects.
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways of editing the application.
 
-**Use Lovable**
+### Use the web project dashboard
+Visit the project URL above to review documentation, assets, and any hosted previews.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b302d69b-b924-4958-b54a-03f9a6894cdf) and start prompting.
+### Use your preferred IDE
+Clone the repository locally and edit files. Required: Node.js & npm (use nvm to install if needed).
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Quick start:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# clone the repository
+git clone <https://github.com/Dhanesh10war/Learny-Pal-Bot.git>
+cd <Learny-Pal-Bot>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit on GitHub
+Open the repository in GitHub, edit files via the web editor, and commit changes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technologies
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+This project uses:
 
 - Vite
 - TypeScript
@@ -60,14 +41,18 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Build & Deploy
 
-Simply open [Lovable](https://lovable.dev/projects/b302d69b-b924-4958-b54a-03f9a6894cdf) and click on Share -> Publish.
+Build for production:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+npm run build
+# preview the build locally
+npm run preview
+```
 
-Yes, you can!
+Deploy using your preferred hosting provider (Vercel, Netlify, Cloudflare Pages, etc.) by pointing the provider to this repository or uploading the build output.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For questions about running or editing the project, open an issue in the repository.
